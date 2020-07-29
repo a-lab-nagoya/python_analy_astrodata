@@ -3,18 +3,18 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
-[dev-packages]
-
-[packages]
-spectral-cube = "*"
-numpy = "*"
-matplotlib = "*"
-jupyter = "*"
-astropy = "*"
-aplpy = "*"
-jupyter-io = "*"
-ipython = "*"
-pandas = "*"
-
 [requires]
 python_version = "3.7"
+
+[packages]
+aplpy = ">=2.0"
+astropy = ">=4.0"
+jupyter-io = ">=0.2"
+matplotlib = ">=3.1"
+numpy = ">=1.17"
+pandas = ">=1.0"
+spectral-cube = ">=0.4"
+
+[dev-packages]
+ipython = ">=5.5"
+jupyter = ">=1.0"
