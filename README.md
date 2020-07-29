@@ -1,3 +1,8 @@
+## Requirements
+
+- [Python 3.7](https://www.python.org/downloads/)
+- [Pipenv](https://pipenv.pypa.io/en/latest/)
+
 ## Installation
 
 ```shell
